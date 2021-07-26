@@ -1,0 +1,714 @@
+﻿/*MasterPage*/
+body {
+    margin: 0;
+    padding: 0 0 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+    background-color:#8f8674;
+    background-image: url(resim/bulut.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+.all {
+    width: 720px;
+    height: auto;
+    margin:0 auto;
+    padding:0;
+    border-radius: 15px;
+    background-image: url(resim/all.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+
+.up-1 {
+    width: 100%;
+    height: 60px;
+}
+.up {
+    height: 30px;
+    width: 83%;
+    padding-right: 12%;
+    padding-left:5%;
+    background-color: #222;
+    position: fixed;
+    z-index: 1;
+    text-align:right;
+}
+.ks{
+    height:30px;
+    line-height:30px;
+    width:auto;
+    float:left;
+}
+    .up ul {
+        list-style: none;
+        padding: 0;
+        margin:0;
+        height: 100%;
+        width:auto;
+        float:right;
+    }
+
+        .up ul li {
+            line-height: 30px;
+            float: left;
+            text-align: center;
+            width: auto;
+            margin-left: 8px;
+        }
+
+.hyup {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+}
+
+    .hyup:hover {
+        color: #bbb;
+    }
+
+.menulogo {
+    width: 680px;
+    height: 80px;
+    background-image: url(resim/menu.jpg);
+    background-repeat: repeat-x;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0px 20px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.comelogo {
+    padding-right: 60px;
+    float: left;
+    width: 180px;
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    color: #aaa;
+    font: bold;
+    font-size: 60px;
+}
+
+.menu {
+    width: 440px;
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menulogo ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 440px;
+}
+
+    .menulogo ul li {
+        float: left;
+        margin-left: 22px;
+    }
+
+.hyp {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #ddd;
+    display: block;
+    text-align: center;
+    width: auto;
+    height: 70px;
+    text-decoration: none;
+}
+
+    .hyp:hover {
+        border-bottom: solid 10px #938c79;
+        border-radius: 15px;
+    }
+
+.fooder {
+    background-image: url(resim/fooder.jpg);
+    background-repeat: repeat-x;
+    border-radius: 0px 0px 15px 15px;
+    width: 700px;
+    height: 80px;
+    padding: 0px 10px;
+    line-height: 80px;
+    text-align: right;
+    margin-top: 20px;
+}
+/*Anasayfa*/
+.resimdiv {
+    position: relative;
+    left: -20px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.resim {
+    border-radius: 15px;
+}
+
+.alt {
+    width: 700px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:#333;
+    font-size:20px;
+}
+
+    .alt:hover {
+        padding: 5px;
+        border: solid 5px #1c2845;
+        border-radius: 5px;
+    }
+
+        .alt:hover h1 {
+            background-color: #1c2845;
+        }
+
+    .alt h1 {
+        color: #c8d2b0;
+        display: block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        background-color: #888;
+        border-radius: 10px;
+        font-size:28px;
+    }
+/*Kayit & giriş*/
+.kyt {
+    width: auto;
+    height: auto;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.basari {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lbasari {
+    color: #65ff47;
+    font-size: 20px;
+}
+
+.kytbas {
+    font-weight: bold;
+    color: #eee;
+    font-size: 30px;
+    padding-left: 8px;
+}
+
+.kyt hr {
+    height: 2px;
+    background-color: #333;
+    border: #333;
+}
+
+.kprofile {
+    width: 128px;
+    height: 128px;
+    border: 5px #ccc solid;
+    border-radius: 5px;
+    text-align: right;
+    float: left;
+}
+
+.kulpro {
+    list-style-type: none;
+    padding: 0;
+    margin: 2px 0 0 0;
+}
+
+    .kulpro li {
+        padding-bottom: 6px;
+    }
+
+.tdy {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.ktext {
+    height: 18px;
+    font-size: 16px;
+    color: #7692bd;
+    font-weight: bold;
+}
+
+.hata {
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 5px 0 0 15px;
+    text-align: center;
+}
+
+.kdb {
+    height: auto;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-bottom: 15px;
+}
+
+.kb {
+    height: 40px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #eee;
+    border-color: #eee;
+    color: #333;
+    font-weight: bold;
+    font-size: 15px;
+}
+/*profile*/
+.dbilgi {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 190px;
+    width: 680px;
+}
+
+.pro_resim {
+    width: 184px;
+    height: 184px;
+    border: 3px #cc9 solid;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+
+.btable {
+    width: 410px;
+    height: 100px;
+    padding-top: 50px;
+    float: left;
+}
+
+.btd {
+    text-align: center;
+}
+
+.lbilgi {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ddd;
+}
+
+.bb {
+    width: 60px;
+    height: 28px;
+    border-radius: 15px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #333;
+}
+
+.menuayar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: #fff 3px solid;
+    border-radius: 5px;
+    color: #333;
+    text-align: center;
+}
+
+.matd {
+    width: 100px;
+    border-right: #fff 3px solid;
+}
+
+.matds {
+    width: 100px;
+}
+
+.mab {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .mab:hover {
+        color: #333;
+    }
+
+.ayar {
+    text-align: center;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-right: 3px #fff solid;
+    border-left: 3px #fff solid;
+    border-bottom: 3px #fff solid;
+    border-radius: 0 0 5px 5px;
+}
+
+.g_resim {
+    width: 64px;
+    height: 64px;
+    border: 2px #fff solid;
+    border-radius: 3px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.p_baslik {
+    width: 520px;
+    height: auto;
+    padding: 0 100px 0 100px;
+}
+
+.h1 {
+    font-size: 40px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/*Uyeler*/
+.uye_all {
+    width: 520px;
+    height: auto;
+    padding: 0 100px 0 100px;
+}
+
+    .uye_all a {
+        text-decoration: none;
+    }
+
+.uye_ara {
+    width: 520px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.gomulu {
+    width: 494px;
+    padding: 10px;
+    height: 90px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-bottom: #ddd solid 3px;
+}
+
+    .gomulu:hover {
+        padding-right: 7px;
+        padding-left: 7px;
+        border-right: #eee solid 3px;
+        border-left: #eee solid 3px;
+    }
+
+    .gomulu img {
+        height: 84px;
+        width: 84px;
+        border: 3px #cc9 solid;
+        border-radius: 5px;
+        float: left;
+        padding: 0px;
+        margin-right: 20px;
+    }
+
+    .gomulu table {
+        width: 380px;
+        height: 90px;
+    }
+
+        .gomulu table tr td {
+            color: #eee;
+            font-size: 25px;
+            padding-right: 5px;
+        }
+
+.sayfa {
+    width: 494px;
+    padding: 10px;
+    height: 30px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+    .sayfa span {
+        display: block;
+        font-weight: bold;
+        width: 8px;
+        height: 8px;
+        color: #333;
+        padding: 8px;
+        background-color: #ddd;
+        margin-right: 5px;
+        text-align: center;
+        float: right;
+        line-height: 8px;
+        border-radius: 10px;
+        border: solid 2px #333;
+    }
+
+        .sayfa span:hover {
+            background-color: #333;
+            border: solid 2px #ddd;
+            color: #ddd;
+        }
+/*paylas*/
+.paylas {
+    width: 520px;
+    height: auto;
+    padding: 0 100px 0 100px;
+}
+
+    .paylas table {
+        width: 500px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+        .paylas table td {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+
+.align_sag {
+    text-align: right;
+}
+
+.baslik {
+    width: 400px;
+    height: 30px;
+    border: #888 1px solid;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #666;
+    padding: 5px;
+}
+
+.entry {
+    width: 400px;
+    height: 300px;
+    border: #888 1px solid;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #555;
+    resize: none;
+    padding: 5px;
+}
+
+.paddir {
+    padding-right: 20px;
+}
+
+.hayalet {
+    opacity: 0.1;
+    filter: alpha( Opacity=10 );
+}
+/*basliklar*/
+.b_all {
+    width: 520px;
+    height: auto;
+    padding: 0 100px 0 100px;
+}
+
+    .b_all a {
+        text-decoration: none;
+    }
+
+.b_baslik {
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-bottom: solid #333 3px;
+    border-left: solid #555 1px;
+    border-right: solid #555 1px;
+    border-top: solid #555 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+    .b_baslik:hover table th {
+        border-bottom: solid #555 1px;
+        padding-bottom: 0;
+    }
+
+    .b_baslik:hover table td {
+        border-bottom: solid #555 1px;
+        padding-bottom: 0;
+    }
+
+    .b_baslik table {
+        height: auto;
+        width: 500px;
+        padding: 0;
+        margin: 0;
+    }
+
+        .b_baslik table th {
+            color: #333;
+            font-size: 25px;
+            padding-bottom: 1px;
+            width: 70px;
+        }
+
+        .b_baslik table td {
+            color: #ddd;
+            font-size: 15px;
+            padding-left: 30px;
+            padding-bottom: 1px;
+        }
+/*Entry*/
+.e_all {
+    padding: 0 60px;
+    height: auto;
+    width: 600px;
+}
+
+    .e_all a {
+        text-decoration: none;
+    }
+
+.e_p {
+    height: 36px;
+    padding: 4px 10px 4px 8px;
+    border-top: solid #cc9 2px;
+    border-right: solid #cc9 2px;
+    border-left: solid #cc9 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    line-height: 36px;
+}
+
+    .e_p:hover {
+        border-top: solid #ff9 2px;
+        border-right: solid #ee9 2px;
+        border-left: solid #ee9 2px;
+    }
+
+    .e_p img {
+        float: left;
+        width: 36px;
+        height: 36px;
+        border-radius: 5px;
+        margin-right: 24px;
+    }
+
+    .e_p span {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.e_i {
+    width: 556px;
+    height: auto;
+    padding: 20px 20px 5px 20px;
+    border: solid #cc9 2px;
+    border-top-right-radius: 8px;
+}
+
+    .e_i:hover {
+        border: solid #ee9 2px;
+    }
+
+    .e_i p {
+        color: #fff;
+    }
+
+.e_i_b {
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.eia {
+    width: 90%;
+    padding: 0 3% 0 7%;
+    height: auto;
+    line-height: 30px;
+    text-align: right;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bgn {
+    width: auto;
+    height: auto;
+    position: relative;
+    bottom: 32px;
+    left: 22px;
+    font-weight: bold;
+    background-color: #cc9;
+    border-radius: 5px;
+    border: 3px solid #cc9;
+    color: #333;
+    padding: 2px 12px;
+}
+
+    .bgn:hover {
+        background-color: #ee9;
+        border-color: #ee9;
+    }
+
+.kul_yetki {
+    float: right;
+    height: 30px;
+    width: auto;
+    padding: 4px 10px 4px 8px;
+    line-height: 36px;
+}
+
+.bayar {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid #fff;
+    color: #333;
+    padding: 4px 14px;
+}
+
+.ensil {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #eee;
+    padding: 4px 14px;
+    margin: 0 5px;
+}
+
+.endzn {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    background-color: #333;
+    border: 1px solid #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #eee;
+    padding: 4px 14px;
+}

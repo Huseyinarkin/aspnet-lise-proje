@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script runat="server">
+
+    </script>
+    <title>Heur</title>
+    <link href="all.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="up">
+            <div class="ks">
+                <span>Online:</span>
+                <asp:Label ID="only" runat="server" Font-Bold="True" ForeColor="Lime"></asp:Label>
+            </div>
+            <ul>
+                <li>
+                    <asp:LinkButton ID="solup" runat="server" CssClass="hyup" OnClick="solup_click"></asp:LinkButton>
+                </li>
+                <li>|</li>
+                <li>
+                    <asp:LinkButton ID="sagup" runat="server" CssClass="hyup" OnClick="sagup_click"></asp:LinkButton>
+                </li>
+            </ul>
+        </div>
+        <div class="up-1"></div>
+        <div class="all">
+            <div class="menulogo">
+                <div class="comelogo">
+                    <span class="logo">NTNG</span>
+                </div>
+                <ul>
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="hyp" NavigateUrl="~/default.aspx">Anasayfa</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" runat="server" CssClass="hyp" NavigateUrl="~/entryler.aspx">Başlıklar</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" CssClass="hyp" NavigateUrl="~/uyeler.aspx?page=1">Üyeler</asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink3" runat="server" CssClass="hyp" NavigateUrl="~/paylas.aspx" Visible="false">Paylaş</asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="fooder">
+                Tüm Hakları Saklıdır.
+            </div>
+        </div>
+    </form>
+</body>
+</html>
